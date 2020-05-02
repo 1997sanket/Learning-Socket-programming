@@ -13,4 +13,4 @@
 
 5. Now from client side to send a message we use *OutputStream*, and on server side to receive the message we use *InputStream*.
    That's it, very simple program :)
-
+ 
