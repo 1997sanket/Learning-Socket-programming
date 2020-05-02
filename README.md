@@ -1,6 +1,6 @@
 # Socket-programming
 
-1. Socket is like a telephone picked up by the receiver.
+1. Socket is an object, through which connection is established between server and client.    
 
 2. The caller/sender dont need to know his own phone number (IP), but he must know the number of person he is calling.
    Here, he must know the IP address and the PORT number. 
@@ -9,9 +9,8 @@
 
 3. On server side, the telephone (Socket) needs to be connected to the extension, on which it will receive calls.
 
-4. Socket is an object, throug which connection is established between server and client.
+4. Socket is like a telephone picked up by the receiver.
 
-5. Now from client to send a message we use *OutputStream*, and on server side to receive the message we use *InputStream*.
+5. Now from client side to send a message we use *OutputStream*, and on server side to receive the message we use *InputStream*.
    That's it, very simple program :)
 
-   
